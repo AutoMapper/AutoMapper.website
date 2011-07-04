@@ -1,0 +1,67 @@
+/*------------- Structural */
+table.tcTable {
+  font-size: 80%;
+  font-family: tahoma, arial, sans-serif;
+  border: 1px solid #A0A0A0;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #AAA;
+}
+
+table.tcTable tr {
+  vertical-align: top;
+}
+
+table.tcTable td {
+  padding-bottom: 5px;
+}
+
+/*----------- Components*/
+table.tcTable div.projectName {
+  font-family: trebuchet ms, tahoma, arial, sans-serif;
+  border-bottom: 1px solid #ccc;
+  font-size: 130%;
+  padding: 0;
+  margin: 0; /*display:none;*/
+/* UNCOMMENT TO REMOVE PROJECT NAME FROM THE EMBEDLET */
+}
+
+table.tcTable td.buildConfigurationName {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+table.tcTable td.buildNumberDate {
+/*display:none;*/
+/* UNCOMMENT TO REMOVE BUILD NUMBER AND DATE FROM THE EMBEDLET */
+}
+
+table.tcTable td.buildResults {
+/*display:none;*/
+/* UNCOMMENT TO REMOVE BUILD RESULTS/ARTIFACTS LINK FROM THE EMBEDLET */
+}
+
+table.tcTable td.buildNumberDate div.teamCityDateTime {
+  color: #696B71; /*display:none;*/
+/* UNCOMMENT TO REMOVE THE LAST BUILD DATE FROM THE EMBEDLET */
+}
+
+/*------- Appearance */
+table.tcTable img {
+  vertical-align: top;
+}
+
+table.tcTable a {
+  color: #0254D0;
+  text-decoration: none;
+}
+
+table.tcTable a:hover {
+  text-decoration: underline;
+  color: #0254D0;
+}
+
+
+
+
+
