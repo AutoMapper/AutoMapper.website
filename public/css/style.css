@@ -222,12 +222,12 @@ body {
 #top ul a, #top ul a:link, #top ul a:visited {
 	font-size: 1.5em;
 	text-decoration: none;
-	color: #666;
+	color: #CCC;
 }
 
 #top ul a:hover {
 	text-decoration: underline;
-	color: #888;
+	color: #EEE;
 }
 
 #content {
@@ -236,7 +236,7 @@ body {
 }
 
 #summary {
-	background-color: #666;
+	background-color: #999;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
@@ -267,7 +267,7 @@ h2 {
 }
 
 pre {
-	background-color: #666;
+	background-color: #999;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
