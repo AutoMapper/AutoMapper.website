@@ -180,7 +180,7 @@ body {
 	line-height: 1.25;
 	margin: 0;
 	padding: 0;
-	background-color: #CCC;
+	background-color: #AAA;
 }
 
 #top {
@@ -222,12 +222,12 @@ body {
 #top ul a, #top ul a:link, #top ul a:visited {
 	font-size: 1.5em;
 	text-decoration: none;
-	color: #CCC;
+	color: #666;
 }
 
 #top ul a:hover {
 	text-decoration: underline;
-	color: #EEE;
+	color: #888;
 }
 
 #content {
@@ -236,16 +236,31 @@ body {
 }
 
 #summary {
-	background-color: #999;
+	background-color: #666;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
 }
 
-h2 {
+h2{
 	font-size: 2em;
 	margin: 1em 0 0.5em 0;
 	border-bottom: solid 4px #666;
+}
+
+.post h1 {
+  font-size: 1.5em;
+ 	margin: 1em 0 0.5em 0;
+	border-bottom: solid 4px #231f20;
+}
+
+.post h1 a:hover, .post h1 a:link, .post h1 a:visited {
+	text-decoration: none ! important; 
+}
+
+.date {
+  font-style: italic;
+  line-height: 2em;
 }
 
 #content p {
@@ -267,7 +282,7 @@ h2 {
 }
 
 pre {
-	background-color: #999;
+	background-color: #666;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
