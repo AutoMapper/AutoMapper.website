@@ -180,12 +180,12 @@ body {
 	line-height: 1.25;
 	margin: 0;
 	padding: 0;
-	background-color: #AAA;
+	background-color: #CCC;
 }
 
 #top {
 	text-align: center;
-	border-bottom: solid 4px #444;
+	border-bottom: solid 4px #666;
 	background-color : #231f20;
 }
 
@@ -227,7 +227,7 @@ body {
 
 #top ul a:hover {
 	text-decoration: underline;
-	color: #888;
+	color: #EEE;
 }
 
 #content {
@@ -236,7 +236,7 @@ body {
 }
 
 #summary {
-	background-color: #666;
+	background-color: #999;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
@@ -282,7 +282,7 @@ h2{
 }
 
 pre {
-	background-color: #666;
+	background-color: #999;
 	color: #000;
 	font-size: 1.5em;
 	padding: 1em;
