@@ -307,3 +307,12 @@ pre {
 section.comments {
 	margin: 2em 0;
 }
+
+#archives {
+	margin: 2em 0;
+}
+
+#archives li {
+	margin: 1em 0;
+	font-size: 1.1em;
+}
