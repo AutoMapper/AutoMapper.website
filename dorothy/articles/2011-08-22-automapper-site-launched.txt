@@ -1,0 +1,11 @@
+title: AutoMapper Site Launched
+author: Jimmy Bogard
+date: 2011/08/22
+
+It's about time, I know, but I've finally launched the AutoMapper website at [AutoMapper.org](http://automapper.org). It's a single place to consolidate all things AutoMapper, where you'll find links to source, the wiki, the latest drop, the mailing list, and a blog.
+
+I plan to use the blog as a way to publish AutoMapper news and announcements, whereas the wiki will be a spot for sample code etc. You can [subscribe to the AutoMapper blog](http://feeds.feedburner.com/AutoMapperBlog) to get updates and announcements. This will include things like roadmaps, release notes and so on.
+
+This site was built using [Sinatra](http://www.sinatrarb.com/) and [Toto](http://cloudhead.io/toto), hosted on [Heroku](http://www.heroku.com/) with DNS provided by [dnsimple](https://dnsimple.com/). The source is also [hosted on GitHub](https://github.com/AutoMapper/AutoMapper.website) in case anyone wants to laugh at my amateur Ruby code.
+
+Coming soon - an exciting (yet late) announcement on a Beta of AutoMapper 2.0!

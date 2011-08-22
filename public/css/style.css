@@ -230,6 +230,11 @@ body {
 	color: #EEE;
 }
 
+#rss {
+	float: right;
+	margin: -37px 10px 0 0;
+}
+
 #content {
 	margin: 2em auto;
 	width: 490px;
