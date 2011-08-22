@@ -18,12 +18,14 @@ Toto::Paths[:articles]  = "dorothy/articles"
 #
 toto = Toto::Server.new do
 
-	set :title, "Your Blog Title"
+	set :author, "Jimmy Bogard"
+	set :title, "AutoMapper Blog"
 	set :date, lambda {|now| now.strftime("%d %b %Y") }
 	set :summary,   :max => 500
 	set :root, "index"
 	set :prefix, "blog"
 	set :disqus, "automapper"
+	set :url, 'http://automapper.org'
 end
 
 map '/blog' do
