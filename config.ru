@@ -19,7 +19,7 @@ Toto::Paths[:articles]  = "dorothy/articles"
 toto = Toto::Server.new do
 
 	set :title, "Your Blog Title"
-	set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+	set :date, lambda {|now| now.strftime("%d %b %Y") }
 	set :summary,   :max => 500
 	set :root, "index"
 	set :prefix, "blog"

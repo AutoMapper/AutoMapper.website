@@ -258,9 +258,12 @@ h2{
 	text-decoration: none ! important; 
 }
 
-.date {
-  font-style: italic;
-  line-height: 2em;
+header p {
+	font-size: 0.85em;
+}
+
+.date, .author {
+	font-weight: bold;
 }
 
 #content p {
@@ -299,4 +302,8 @@ pre {
 #footer a, #footer a:link, #footer a:visited, #footer a:hover {
 	color: #000;
 	text-decoration: underline;
+}
+
+section.comments {
+	margin: 2em 0;
 }
