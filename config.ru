@@ -26,6 +26,7 @@ toto = Toto::Server.new do
 	set :prefix, "blog"
 	set :disqus, "automapper"
 	set :url, 'http://automapper.org'
+	set :markdown,  :smart
 end
 
 map '/blog' do

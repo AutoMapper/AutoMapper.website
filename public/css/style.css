@@ -313,6 +313,11 @@ section.comments {
 	margin: 2em 0;
 }
 
+section.content ul {
+	list-style: disc;
+	margin: 1em 2em;
+}
+
 #archives {
 	margin: 2em 0;
 }

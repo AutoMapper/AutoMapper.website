@@ -1,0 +1,15 @@
+title: AutoMapper completely moved to GitHub
+author: Jimmy Bogard
+date: 2011/09/12
+
+AutoMapper is now completely moved to GitHub:
+
+[AutoMapper GitHub](https://github.com/AutoMapper/AutoMapper)
+
+I've updated the site on CodePlex to reflect this move, and moved all existing content over:
+
+* All issues have been moved to the [GitHub issues page](https://github.com/AutoMapper/AutoMapper/issues)
+* All wiki pages have been moved to the [GitHub wiki](https://github.com/AutoMapper/AutoMapper/wiki). 
+* All downloads have been replicated on the [GitHub downloads page](https://github.com/AutoMapper/AutoMapper/downloads)
+
+Having all of the project-level information in one spot will make it easier to manage. I'm not going to delete the CodePlex site, but I will not monitor that site going forward.
