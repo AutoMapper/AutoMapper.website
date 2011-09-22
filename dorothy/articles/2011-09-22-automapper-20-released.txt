@@ -1,0 +1,39 @@
+title: AutoMapper 2.0 Released
+author: Jimmy Bogard
+date: 2011/09/22
+
+AutoMapper 2.0 is now live! Download now from NuGet, or [download from GitHub](https://github.com/downloads/AutoMapper/AutoMapper/AutoMapper.2.0.0.zip).
+
+Quite a bit has changed in the past year since the 1.1 release:
+
+## New Features
+* Targeting .NET 4 Client Profile
+* Support for Silverlight 4
+* Auto-projecting LINQ queries
+* Nested/child container support
+* Map to destination type constructors
+* Derived type maps inherit base map configuration
+
+## Enhancements
+* Removed Castle dependency
+* Interface mapping for Silverlight 4
+* Simplified Map syntax, no need to specify the source type
+* Fully on NuGet
+* Resolvers can dynamically ignore mapping
+* Specfying mapping depth for recursive maps
+* Many inheritance/polymorphism scenarios
+* ReadOnlyCollection support
+* ISet support
+* IgnoreMap attribute
+
+## Breaking changes
+* MapFrom is Expression-based only. Use ResolveUsing for Func support
+* Configuration class renamed to ConfigurationStore
+
+## Bug Fixes
+* Enumerating collection twice
+* Thread safetiness
+* Private setters in base classes
+* Nullable enums
+
+As a reminder, [AutoMapper is on GitHub](https://github.com/automapper/automapper) now, so all issues should be reported there. Enjoy!

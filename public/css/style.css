@@ -318,6 +318,10 @@ section.content ul {
 	margin: 1em 2em;
 }
 
+section.content h2 {
+	font-size: 1.4em;
+}
+
 #archives {
 	margin: 2em 0;
 }
