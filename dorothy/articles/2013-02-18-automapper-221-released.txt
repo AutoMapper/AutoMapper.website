@@ -1,0 +1,15 @@
+title: AutoMapper 2.2.1 Released
+author: Jimmy Bogard
+date: 2013/02/18
+
+AutoMapper 2.2.1 is now live! Download now from NuGet.
+
+This release is a bit of a maintenance release, fixing quite a few bugs found from the 2.2 release, including:
+
+* Support for EF proxy objects
+* Enums and nullables (again)
+* Constructor initializers
+
+Besides that, I did a lot of work on the build and deployment so that every commit to master and develop branches pushes out a NuGet package. All pushes to develop deploy a prerelease package, and all pushes to master deploy a release package.
+
+As a reminder, [AutoMapper is on GitHub](https://github.com/automapper/automapper) now, so all issues should be reported there. Enjoy!
