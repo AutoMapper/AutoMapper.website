@@ -106,7 +106,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #ED1C24;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -122,13 +122,11 @@ a {
 }
 
 #main_content a:hover {
-  color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  text-decoration: underline;
 }
 
 footer a:hover {
-  color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
+  text-decoration: underline;
 }
 
 em {
@@ -152,6 +150,19 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+#project_title img {
+  padding: 0px;
+  margin: 10px 0px;
+  border: 0px;
+  width: auto;
+
+  box-shadow: 0 0 0px #000;
+  -webkit-box-shadow: 0 0 0px #000;
+  -moz-box-shadow: 0 0 0px #000;
+  -o-box-shadow: 0 0 0px #000;
+  -ms-box-shadow: 0 0 0px #000;
 }
 
 pre, code {
@@ -281,7 +292,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #BE161D no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
